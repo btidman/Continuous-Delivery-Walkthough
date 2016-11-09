@@ -1,11 +1,17 @@
 **Node install and setup of project**
+
 	Go to: https://nodejs.org/en/ and download and install node. 
+	
 	Open a terminal window, create and navigate to a new directory named for your project, run ```npm init```, and follow the prompts. 
 
 **Setup git**
+
 	If you haven't already, download and install git from here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git.
+	
 	Set up a remote git repo in GitHub or any other place that you choose.
+	
 	Run these in the terminal from your project folder:
+	
 	```
 	git init
 	git add -A
@@ -13,7 +19,6 @@
 	git commit -m "first commit"
 	git push -u origin master
 	```
-	
 		
 **Installation of Node Packages**
 

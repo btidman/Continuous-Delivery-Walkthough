@@ -87,7 +87,8 @@
 	
 - Add this markup to index.html:
 	
-	```<!DOCTYPE html>
+	```
+	<!DOCTYPE html>
     <html lang="en">
 
         <head>
@@ -110,7 +111,8 @@
     
 - Add this to server.js so that the files we are creating are available to be served up when we make http requests:
     
-	```var express = require('express');
+	```
+	var express = require('express');
     var app = express();
     var path    = require("path");
 
